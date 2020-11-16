@@ -44,6 +44,10 @@ body{
     background: linear-gradient(45deg, rgba(168,0,0,1) 0%, rgba(34,100,186,1) 50%, rgba(254,193,22,1) 100%);
 }
 
+.cover--page{
+    height: 40vh;
+}
+
 .coverFilter{
     display: none;
 }
@@ -66,6 +70,39 @@ body{
 
 .sectionTitle{
     color: #2264BA;
+}
+
+.page--content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border: solid 1px #EEEEEE;
+    border-radius: 10px;
+    margin-top: 5%;
+}
+
+.page--content .title{
+    width: 30%;
+    text-align: center;
+    font-size: 150%
+}
+
+.page--content .title h1:nth-of-type(1){
+    color: #2264BA;
+}
+
+.page--content .title h1{
+    color: #FEC116;
+}
+
+.page--content .text{
+    width: 70%;
+    text-align: center;
+}
+
+.user{
+    width: 15%;
 }
 
 .card{
@@ -127,6 +164,24 @@ body{
     
     .listMenu{
         background-color: #444444;
+    }
+
+    .page--content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        border: solid 1px #EEEEEE;
+        border-radius: 10px;
+        margin-top: 5%;
+    }
+    
+    .page--content .title{
+        width: 100%;
+    }
+    
+    .page--content .text{
+        width: 100%;
     }
     
     .footerSocial{

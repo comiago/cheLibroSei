@@ -1,0 +1,16 @@
+.grid{
+    display: flex;
+    max-width: 1350px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.col{
+    width: 100%;
+}
+
+@media (max-width: 767px){
+    .grid{
+        flex-wrap: wrap;
+    }
+}

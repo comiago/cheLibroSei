@@ -42,6 +42,7 @@ body{
 .cover{
     background: rgb(168,0,0);
     background: linear-gradient(45deg, rgba(168,0,0,1) 0%, rgba(34,100,186,1) 50%, rgba(254,193,22,1) 100%);
+    margin-bottom: 5%;
 }
 
 .cover--page{
@@ -103,6 +104,24 @@ body{
 
 .user{
     width: 15%;
+}
+
+.carousel-cell{
+    height: 200px;
+    width: 200px;
+    border: solid 1px #FF0000;
+    border-radius: 100%;
+    margin: auto 2%;
+    text-align: center;
+    line-height: 200px;
+}
+
+.carousel-cell img{
+    height: 200px!important
+}
+
+.dot{
+    background-color: #fff!important;
 }
 
 .card{

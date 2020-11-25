@@ -1,12 +1,17 @@
-class libro {
-    constructor(titolo, autore, punteggio, casaEditrice) {
-      this.titolo = titolo;
-      this.autore = autore;
-      this.punteggio = punteggio;
-      this.casaEditrice = casaEditrice;
+class book {
+    constructor(title, author, score, publishingHouse) {
+      this.title = title;
+      this.author = author;
+      this.score = score;
+      this.publishingHouse = publishingHouse;
     }
 }
 
-let libro1 = new libro("Hello World", "Hanna Fry", 23, "Bollati Boringhieri");
+// var libro1 = new libro("Hello World", "Hanna Fry", 23, "Bollati Boringhieri");
+// vet.push(libro1);
 
-alert("Titolo libro1: " + libro1.name);
+var vet = [];
+
+vet = vet.concat(new libro("Hello World", "Hanna Fry", 23, "Bollati Boringhieri"));
+
+console.log(vet);

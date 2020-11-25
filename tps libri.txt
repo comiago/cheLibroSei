@@ -1,0 +1,19 @@
+Libro1 
+titolo: Il piccolo principe
+genere: Favola, Letteratura per ragazzi, Novella, Fiction speculativa, Narrativa fantasy. Quello che ti fa più comodo
+anno: 1943
+
+Libro2
+titolo: Un cuore da leone
+genere: Narrativa
+anno: 2006
+
+Libro3
+titolo: Buchi nel deserto
+genere: Romanzo, Letteratura per ragazzi, Satira, Letteratura per giovani adulti, Avventura
+anno: 1998
+
+Libro4 
+titolo: Canto di Natale
+genere: Fiaba, Novella, Storia di fantasmi, Letteratura per ragazzi
+anno: 1843

@@ -117,37 +117,6 @@ input[type="button"]{
     cursor: pointer;
 }
 
-.carousel-cell{
-    height: 200px;
-    width: 200px;
-    border: solid 1px #FF0000;
-    border-radius: 100%;
-    margin: auto 2%;
-    text-align: center;
-    line-height: 200px;
-    overflow: hidden;
-    position: relative;
-}
-
-.carousel-cell img{
-    height: 100%!important;
-    filter: grayscale(60%);
-}
-
-.carousel-cell p:nth-of-type(1){
-    transform: translateY(-130%);
-    font-weight: bold;
-}
-
-.carousel-cell p:nth-of-type(2){
-    transform: translateY(-225%);
-    font-weight: bold;
-}
-
-.dot{
-    background-color: #fff!important;
-}
-
 .card{
     border: 1px solid #A80000;
     color: #EEEEEE;
